@@ -1,0 +1,56 @@
+
+body{
+  font-family: Arial;
+  margin:0;
+  background:#f4f4f4;
+}
+.container{
+  padding:20px;
+}
+.tabs{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+  flex-wrap:wrap;
+}
+button{
+  padding:10px 14px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+.active{
+  background:#111827;
+  color:white;
+}
+.layout{
+  display:grid;
+  grid-template-columns:300px 1fr;
+  gap:20px;
+}
+.sidebar,.content{
+  background:white;
+  padding:20px;
+  border-radius:12px;
+}
+.card{
+  padding:12px;
+  border:1px solid #ddd;
+  border-radius:8px;
+  margin-bottom:10px;
+  cursor:pointer;
+}
+.activeCard{
+  background:#111827;
+  color:white;
+}
+.field{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:14px;
+}
+input,select{
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:8px;
+}
